@@ -1,0 +1,335 @@
+﻿++Solution 'asp_projekat' ‎(6 of 6 projects)
+i:{00000000-0000-0000-0000-000000000000}:asp_projekat.sln
+++API
+i:{00000000-0000-0000-0000-000000000000}:API
+++Connected Services 
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:>1321
+++Dependencies
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:>1320
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:>1175
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:>1174
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:>1172
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:>1176
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:>1173
+++Properties
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\properties\
+++Auth
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\auth\
+++AnonymousUser.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\auth\anonymoususer.cs
+++JwtManager.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\auth\jwtmanager.cs
+++JwtSettings.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\auth\jwtsettings.cs
+++JwtUser.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\auth\jwtuser.cs
+++Controllers
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\controllers\
+++AuthController.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\controllers\authcontroller.cs
+++AuthorsController.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\controllers\authorscontroller.cs
+++InitialDataController.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\controllers\initialdatacontroller.cs
+++UserController.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\controllers\usercontroller.cs
+++Extensions
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\extensions\
+++ConteinerExtension.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\extensions\conteinerextension.cs
+++ValidationExtensions.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\extensions\validationextensions.cs
+++.editorconfig
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\.editorconfig
+++AppSettings.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\appsettings.cs
+++appsettings.json
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\appsettings.json
+++appsettings.Development.json
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\appsettings.development.json
+++Program.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\program.cs
+++Startup.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\startup.cs
+++No service dependencies discovered
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:>1322
+++Analyzers
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:analyzers
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:analyzers
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:analyzers
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:analyzers
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:analyzers
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:analyzers
+++Frameworks
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:frameworks
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:frameworks
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:frameworks
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:frameworks
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:frameworks
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:frameworks
+++Packages
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:packages
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:packages
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:packages
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:packages
+++Projects
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:projects
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:projects
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:projects
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:projects
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:projects
+++launchSettings.json
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\properties\launchsettings.json
+++Microsoft.AspNetCore.Analyzers
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.17\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.17\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.17\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:c:\users\developer\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.17\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.AspNetCore.App
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\api\microsoft.netcore.app
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\microsoft.netcore.app
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\microsoft.netcore.app
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\asp_projekat\domain\microsoft.netcore.app
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\microsoft.netcore.app
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:c:\users\developer\onedrive\desktop\asp_projekat\tests\microsoft.netcore.app
+++Microsoft.AspNetCore.Authentication.JwtBearer (5.0.17)
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:>1334
+++Swashbuckle.AspNetCore (5.6.3)
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:>1333
+++Application
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\application\application.csproj
+i:{00000000-0000-0000-0000-000000000000}:Application
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\application\application.csproj
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\application\application.csproj
+++DataAccess
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\dataaccess.csproj
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\dataaccess.csproj
+i:{00000000-0000-0000-0000-000000000000}:DataAccess
+++Domain
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\domain\domain.csproj
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\domain\bin\debug\net5.0\domain.dll
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\domain\domain.csproj
+i:{00000000-0000-0000-0000-000000000000}:Domain
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\domain\domain.csproj
+++Implementations
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\implementations.csproj
+i:{00000000-0000-0000-0000-000000000000}:Implementations
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\bin\debug\net5.0\implementations.dll
+++DTO
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\dto\
+++Emails
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\emails\
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\emails\
+++Exceptions
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\exceptions\
+++ForbbidenUseCaseException.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\exceptions\forbbidenusecaseexception.cs
+++Logging
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\logging\
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\logging\
+++IExceptionLogger.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\logging\iexceptionlogger.cs
+++IUseCaseLogger.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\logging\iusecaselogger.cs
+++Seeders
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\seeders\
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\seeders\
+++UseCases
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\usecases\
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\usecases\
+++IApplicationUser.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\iapplicationuser.cs
+++IUseCase.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\iusecase.cs
+++Searches
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\dto\searches\
+++AuthorDto.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\dto\authordto.cs
+++BaseDto.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\dto\basedto.cs
+++RegisterUserDto.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\dto\registeruserdto.cs
+++Email.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\emails\email.cs
+++IEmailSender.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\emails\iemailsender.cs
+++IFakeDataSeed.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\seeders\ifakedataseed.cs
+++Commands
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\usecases\commands\
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\usecases\commands\
+++Queries
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\usecases\queries\
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\usecases\queries\
+++BaseSearch.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\dto\searches\basesearch.cs
+++ICommand.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\usecases\commands\icommand.cs
+++ICreateAuthorCommand.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\usecases\commands\icreateauthorcommand.cs
+++IRegisterUserCommand.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\usecases\commands\iregisterusercommand.cs
+++IGetAuthorsQuery.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\usecases\queries\igetauthorsquery.cs
+++IQuery.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\asp_projekat\application\usecases\queries\iquery.cs
+++FakeEmailSender.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\emails\fakeemailsender.cs
+++ConsoleExceptionLogger.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\logging\consoleexceptionlogger.cs
+++ConsoleUseCaseLogger.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\logging\consoleusecaselogger.cs
+++BogusFakerSeeder.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\seeders\bogusfakerseeder.cs
+++EF
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\usecases\commands\ef\
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\usecases\queries\ef\
+++EFCreateAuthorCommand.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\usecases\commands\ef\efcreateauthorcommand.cs
+++EFRegisteUserCommand.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\usecases\commands\ef\efregisteusercommand.cs
+++EFGetAuthorsQuery.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\usecases\queries\ef\efgetauthorsquery.cs
+++SP
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\usecases\queries\sp\
+++EFUseCaseConnection.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\usecases\efusecaseconnection.cs
+++UseCaseHandler.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\usecases\usecasehandler.cs
+++Validators
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\validators\
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:c:\users\developer\onedrive\desktop\asp_projekat\tests\validators\
+++CreateAuthorValidator.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\validators\createauthorvalidator.cs
+++RegisterUserValidator.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\validators\registeruservalidator.cs
+++SPGetAuthorsQuery.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\asp_projekat\implementations\usecases\queries\sp\spgetauthorsquery.cs
+++BCrypt.Net-Next (4.0.3)
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:>1348
+++Bogus (34.0.2)
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:>1349
+++Dapper (2.0.123)
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:>1346
+++FluentValidation (11.0.2)
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:>1347
+++Newtonsoft.Json (13.0.1)
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:>1414
+++Entities
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\asp_projekat\domain\entities\
+++Author.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\asp_projekat\domain\entities\author.cs
+++Book.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\asp_projekat\domain\entities\book.cs
+++BookCategories.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\asp_projekat\domain\entities\bookcategories.cs
+++BookPublishers.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\asp_projekat\domain\entities\bookpublishers.cs
+++Category.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\asp_projekat\domain\entities\category.cs
+++Entity.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\asp_projekat\domain\entities\entity.cs
+++Image.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\asp_projekat\domain\entities\image.cs
+++Publisher.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\asp_projekat\domain\entities\publisher.cs
+++User.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\asp_projekat\domain\entities\user.cs
+++Configurations
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\configurations\
+++AuthorConfiguration.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\configurations\authorconfiguration.cs
+++BookConfiguration.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\configurations\bookconfiguration.cs
+++CategoryConfiguration.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\configurations\categoryconfiguration.cs
+++EntityConfiguration.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\configurations\entityconfiguration.cs
+++ImageConfiguration.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\configurations\imageconfiguration.cs
+++PublisherConfiguration.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\configurations\publisherconfiguration.cs
+++UserCinfiguration.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\configurations\usercinfiguration.cs
+++Migrations
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\migrations\
+++20220524120554_initial setup.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\migrations\20220524120554_initial setup.cs
+++20220530190920_fixed columns that should be fefault null.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\migrations\20220530190920_fixed columns that should be fefault null.cs
+++20220531134839_added unique name columns.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\migrations\20220531134839_added unique name columns.cs
+++20220601104000_added users table.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\migrations\20220601104000_added users table.cs
+++20220602081804_fixed password length column.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\migrations\20220602081804_fixed password length column.cs
+++20220602081804_fixed password length column.Designer.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\migrations\20220602081804_fixed password length column.designer.cs
+++LibaryContextModelSnapshot.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\migrations\libarycontextmodelsnapshot.cs
+++LibaryContext.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\libarycontext.cs
+++20220524120554_initial setup.Designer.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\migrations\20220524120554_initial setup.designer.cs
+++20220530190920_fixed columns that should be fefault null.Designer.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\migrations\20220530190920_fixed columns that should be fefault null.designer.cs
+++20220531134839_added unique name columns.Designer.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\migrations\20220531134839_added unique name columns.designer.cs
+++20220601104000_added users table.Designer.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\migrations\20220601104000_added users table.designer.cs
+++Microsoft.EntityFrameworkCore (5.0.17)
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:>1360
+++Microsoft.EntityFrameworkCore.SqlServer (5.0.17)
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:>1361
+++Microsoft.EntityFrameworkCore.Tools (5.0.17)
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:>1362
+++Tests
+i:{00000000-0000-0000-0000-000000000000}:Tests
+++CreateAuthorValidatorTest.cs
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:c:\users\developer\onedrive\desktop\asp_projekat\tests\validators\createauthorvalidatortest.cs
+++UnitTest1.cs
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:c:\users\developer\onedrive\desktop\asp_projekat\tests\unittest1.cs
+++xunit.analyzers
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:c:\users\developer\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+++coverlet.collector (3.1.0)
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:>1390
+++FluentAssertions (6.7.0)
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:>1387
+++Microsoft.NET.Test.Sdk (16.11.0)
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:>1386
+++xunit (2.4.1)
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:>1388
+++xunit.runner.visualstudio (2.4.3)
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:>1389
+++UserUseCase.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\asp_projekat\domain\entities\userusecase.cs
+++20220606100807_added table for user use cases.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\migrations\20220606100807_added table for user use cases.cs
+++20220606100807_added table for user use cases.Designer.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\migrations\20220606100807_added table for user use cases.designer.cs
+++20220606102106_added dbset for userusecases.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\migrations\20220606102106_added dbset for userusecases.cs
+++20220606102106_added dbset for userusecases.Designer.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\asp_projekat\dataaccess\migrations\20220606102106_added dbset for userusecases.designer.cs

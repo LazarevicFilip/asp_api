@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:API.Controllers.AuthorsController.Post(Application.UseCases.Commands.ICreateAuthorCommand,Application.DTO.AuthorDto)">
+             <summary>
+             Creates a Author entity.
+             </summary>
+             <response code="201">Successfully created entity. </response>
+             <response code="422">Dto object is not in good form. </response>
+            <response code="500"> Unexpected server error. </response>
+        </member>
+    </members>
+</doc>
