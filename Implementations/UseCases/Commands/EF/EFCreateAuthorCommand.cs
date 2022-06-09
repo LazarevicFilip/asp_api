@@ -32,6 +32,7 @@ namespace Implementations.UseCases.Commands.EF
             var author = new Author
             {
                 Name = request.Name
+                
             };
             Context.Add(author);
             Context.SaveChanges();

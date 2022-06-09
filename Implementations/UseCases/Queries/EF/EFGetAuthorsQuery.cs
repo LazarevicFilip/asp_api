@@ -25,18 +25,32 @@ namespace Implementations.UseCases.Queries.EF
 
         
 
-        public IEnumerable<AuthorDto> Execute(BaseSearch request)
+        public PagedResponse<AuthorDto> Execute(BasePagedSearch request)
         {
-            var query = Context.Authors.AsQueryable();
+            var query = Context.Authors.Where(x => x.IsActive).AsQueryable();
             if (!string.IsNullOrEmpty(request.Keyword))
             {
                 query = query.Where(x => x.Name.Contains(request.Keyword));
             }
-            return query.Select(x => new AuthorDto
+            if (request.PerPage == null || request.PerPage < 10)
+            {
+                request.PerPage = 10;
+            }
+            if(request.Page == null || request.Page < 1)
+            {
+                request.Page = 1;
+            }
+            var toSkip = (request.Page - 1) * request.PerPage;
+            var response = new PagedResponse<AuthorDto>();
+            response.CurrentPage = request.Page.Value;
+            response.ItemsPerPage = request.PerPage.Value;
+            response.TotalCount = query.Count();
+            response.Data = query.Skip(toSkip.Value).Take(request.PerPage.Value).Select(x => new AuthorDto
             {
                 Id = x.Id,
                 Name = x.Name
             }).ToList();
+            return response;
         }
     }
 }

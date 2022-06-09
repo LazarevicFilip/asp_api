@@ -1,15 +1,15 @@
-﻿using API.Extensions;
+﻿using API.DTO;
 using Application.DTO;
 using Application.DTO.Searches;
 using Application.UseCases.Commands;
 using Application.UseCases.Queries;
 using FluentValidation;
 using Implementations.UseCases;
-using Implementations.Validators;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -30,22 +30,16 @@ namespace API.Controllers
 
         // GET: api/<AuthorsController>
         [HttpGet]
-        public IActionResult Get([FromServices] IGetAuthorsQuery query,[FromQuery]BaseSearch dto)
+        public IActionResult Get([FromServices] IGetAuthorsQuery query,[FromQuery]BasePagedSearch dto)
         {
-            try
-            {
-                return Ok(_handler.HandleQuery(query, dto));
-            }catch(Exception ex)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError);
-            }
+            return Ok(_handler.HandleQuery(query, dto));
         }
 
         // GET api/<AuthorsController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get([FromServices] IFindAuthorQuery query,int id)
         {
-            return "value";
+            return Ok(_handler.HandleQuery(query, id));
         }
         /// <summary>
         /// Creates a Author entity.
@@ -59,33 +53,26 @@ namespace API.Controllers
             [FromServices] ICreateAuthorCommand command,
             [FromBody] AuthorDto dto)
         {
-            try
-            {
-                _handler.HandleCommand(command, dto);
-                return StatusCode(201);
-            }
-            catch (ValidationException e)
-            {
-               return e.Errors.ToUnprocessableEntity();
-            }
-            catch (Exception ex)
-            {
-               var msg = ex.InnerException;
-                return StatusCode(StatusCodes.Status500InternalServerError);
-            }
-           
+            _handler.HandleCommand(command, dto);
+               return StatusCode(201);
+            
         }
 
         // PUT api/<AuthorsController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public IActionResult Put(int id,[FromBody] AuthorDto dto,[FromServices] IUpdateAuthorsCommand command)
         {
+            dto.Id = id;
+            _handler.HandleCommand(command, dto);
+            return NoContent();
         }
 
         // DELETE api/<AuthorsController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete([FromServices] IDeleteAuthorCommand command ,int id)
         {
+            _handler.HandleCommand(command, id);
+            return NoContent();
         }
     }
 }

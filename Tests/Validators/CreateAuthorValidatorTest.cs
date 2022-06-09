@@ -23,7 +23,7 @@ namespace Tests.Validators
             //{
             //    Name = "Eduardo Stamm"
             //};v
-            var dto = new AuthorDto();
+            var dto = new CreateAuthorDto();
             //izvrsavanje testa
             var result = validator.Validate(dto);
             //verifikacija testa

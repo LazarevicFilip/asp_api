@@ -1,4 +1,5 @@
 using API.Extensions;
+using API.Middleware;
 using Application.Emails;
 using Application.Logging;
 using Application.Seeders;
@@ -51,8 +52,7 @@ namespace API
             services.AddTransient<IFakeDataSeed, BogusFakerSeeder>();
             services.AddTransient<IExceptionLogger, ConsoleExceptionLogger>();
             services.AddTransient<IUseCaseLogger, ConsoleUseCaseLogger>();
-            services.AddTransient<IEmailSender, FakeEmailSender>();
-
+            services.AddTransient<IEmailSender>(x => new SMTPEmailSender(settings.EmailFrom,settings.EmailPassword));
             services.AddTransient<UseCaseHandler>();
 
             services.AddSwaggerGen(c =>
@@ -72,9 +72,9 @@ namespace API
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1"));
             }
-
+            app.UseStaticFiles();
             app.UseRouting();
-
+            app.UseMiddleware<GlobalExceptionHandler>();
             app.UseAuthentication();
             app.UseAuthorization();
 

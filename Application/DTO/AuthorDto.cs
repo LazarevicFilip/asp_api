@@ -11,4 +11,9 @@ namespace Application.DTO
         public string Name { get; set; }
        
     }
+    public class FindAuthorDto
+    {
+        public string Name { get; set; }
+        public IEnumerable<BookDto> Books { get; set; }
+    }
 }

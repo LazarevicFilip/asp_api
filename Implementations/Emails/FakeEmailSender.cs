@@ -13,7 +13,6 @@ namespace Implementations.Emails
         {
             Console.WriteLine("Email sent to: " + email.To);
             Console.WriteLine("Title: " + email.Title);
-            Console.WriteLine("From: " + email.From);
         }
     }
 }

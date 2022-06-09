@@ -47,8 +47,7 @@ namespace Implementations.UseCases.Commands.EF
             _sender.Send(new Email
             {
                 To = user.Email,
-                From = "ne_odgovraj@gmail.com",
-                Title = "Potrdi registraciju.",
+                Title = "Verify registration.",
                 Body = ""
             });
 

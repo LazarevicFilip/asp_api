@@ -10,6 +10,7 @@ namespace Domain.Entities
     {
         public string Path { get; set; }
         public int CategoryId { get; set; }
+      //  public int IsCurrentlyShowing { get; set; }
         public virtual Category Category { get; set; } 
     }
 }

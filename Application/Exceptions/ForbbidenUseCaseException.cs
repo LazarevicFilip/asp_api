@@ -9,7 +9,7 @@ namespace Application.Exceptions
     public class ForbbidenUseCaseException : Exception
     {
         public ForbbidenUseCaseException(string useCase,string user)
-            : base($"User {user} has tried to execute {useCase} without having premission,")
+            : base($"User {user} has tried to execute {useCase} without having premission.")
         {
 
         }

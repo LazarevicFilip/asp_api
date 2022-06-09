@@ -38,8 +38,6 @@ namespace API.Auth
                 throw new UnauthorizedAccessException();
             }
 
-            //var useCases = _context.UserUseCase.Where(x => x.UserId == user.UserId).Select(x => x.UseCaseId);
-
             var actor = new JwtUser
             {
                 Id = user.Id,

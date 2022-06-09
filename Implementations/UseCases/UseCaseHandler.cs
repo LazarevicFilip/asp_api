@@ -1,15 +1,13 @@
-﻿using Application;
-using Application.Exceptions;
+﻿using Application.Exceptions;
+using Application;
 using Application.Logging;
 using Application.UseCases.Commands;
 using Application.UseCases.Queris;
 using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Implementations.UseCases
 {
@@ -31,7 +29,7 @@ namespace Implementations.UseCases
             //decorator
             try
             {
-                LogUseCase(command, data);
+                LogAndAuthorize(command, data);
                 var stopwatch = new Stopwatch();
                 stopwatch.Start();
 
@@ -53,7 +51,7 @@ namespace Implementations.UseCases
         {
             try
             {
-                LogUseCase(query, data);
+                LogAndAuthorize(query, data);
                  var stopwatch = new Stopwatch();
                 stopwatch.Start();
 
@@ -70,7 +68,7 @@ namespace Implementations.UseCases
                 throw;
             }
         }
-        private void LogUseCase<TRequest>(IUseCase usecase, TRequest data)
+        private void LogAndAuthorize<TRequest>(IUseCase usecase, TRequest data)
         {
             var isAuthorized = _user.UseCaseIds.Contains(usecase.Id);
             var log = new UseCaseLog
@@ -84,6 +82,7 @@ namespace Implementations.UseCases
                 IsAuthorized = isAuthorized
 
             };
+            _useCaseLogger.Log(log);
             if (!log.IsAuthorized)
             {
                 throw new ForbbidenUseCaseException(usecase.Name, _user.Email);

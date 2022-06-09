@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Application.UseCases.Queries
 {
-    public interface IGetAuthorsQuery : IQuery<BaseSearch,IEnumerable<AuthorDto>>
+    public interface IGetAuthorsQuery : IQuery<BasePagedSearch, PagedResponse<AuthorDto>>
     {
     }
 }

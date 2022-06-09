@@ -17,9 +17,9 @@ namespace Implementations.Validators
         {
             _context = context;
             RuleFor(x => x.Name).Cascade(CascadeMode.Stop)
-                .NotEmpty().WithMessage("Ime je obavezan podatak.")
-                .MinimumLength(4).WithMessage("Ime ne sme biti manej od 4 karaktera.")
-                .Must(AuthorAlreadyExists).WithMessage("Author {PropertyValue} vec postoji u sistemu.");
+                .NotEmpty().WithMessage("Name is required parametar.")
+                .MinimumLength(4).WithMessage("Name length must be over 3 charachters")
+                .Must(AuthorAlreadyExists).WithMessage("Author {PropertyValue} is already in use.");
         }
 
         
