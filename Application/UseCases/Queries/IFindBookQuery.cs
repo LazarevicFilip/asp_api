@@ -1,5 +1,4 @@
 ﻿using Application.DTO;
-using Application.DTO.Searches;
 using Application.UseCases.Queris;
 using System;
 using System.Collections.Generic;
@@ -9,8 +8,7 @@ using System.Threading.Tasks;
 
 namespace Application.UseCases.Queries
 {
-    public interface IGetCategoriesQuery : IQuery<BasePagedSearch, PagedResponse<CategoryDto>>
+    public interface IFindBookQuery : IQuery<int,ExtendendBookDto>
     {
-
     }
 }

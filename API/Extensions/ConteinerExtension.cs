@@ -89,6 +89,8 @@ namespace API.Extensions
             collection.AddTransient<UpdateUserUseCaseValidator>();
             collection.AddTransient<IGetAuthorsQuery, EFGetAuthorsQuery>();
             collection.AddTransient<IGetCategoriesQuery, EFGetCategoriesQuery>();
+            collection.AddTransient<IGetBooksQuery, EFGetBooksQuery>();
+            collection.AddTransient<IFindBookQuery, EfFindBookQuery>();
             collection.AddTransient<ICreateCategoryCommand, EFCreateCategoryCommand>();
             collection.AddTransient<ICreateAuthorCommand, EFCreateAuthorCommand>();
             collection.AddTransient<IUpdateAuthorsCommand, EFUpdateAuthorCommand>();
@@ -97,6 +99,7 @@ namespace API.Extensions
             collection.AddTransient<IUpdateUserUseCasesCommand, EFUpdateUserUseCases>();
             collection.AddTransient<IDeleteAuthorCommand, EFDeleteAuthorCommand>();
             collection.AddTransient<IDeleteCategoryCommand, EFDeleteCategoryCommand>();
+            collection.AddTransient<IDeleteBookCommand, EFDeleteBookCommand>();
             collection.AddTransient<IFindAuthorQuery, EfFindAuthorQuery>();
             collection.AddTransient<IFindCategoryQuery, EfFindCategoryQuery>();
 
