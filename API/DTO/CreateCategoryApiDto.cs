@@ -7,4 +7,8 @@ namespace API.DTO
     {
         public IFormFile File { get; set; }
     }
+    public class CreateBookApiDto : UpdateBookDto
+    {
+        public IFormFile File { get; set; }
+    }
 }

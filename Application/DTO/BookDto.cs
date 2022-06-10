@@ -22,6 +22,19 @@ namespace Application.DTO
         public string Author { get; set; }
         public IEnumerable<CategoryDto> Category { get; set; }
        
+    }
+    public class CreateBookDto : BookDto
+    {
+        public string PathName { get; set; }
+        public string Description { get; set; }
 
+        public int PagesCount { get; set; }
+        public string Format { get; set; }
+        public int AuthorId { get; set; }
+        public IEnumerable<int> BookCategoryIds { get; set; }
+    }
+    public class UpdateBookDto : CreateBookDto
+    {
+        public int Id { get; set; }
     }
 }

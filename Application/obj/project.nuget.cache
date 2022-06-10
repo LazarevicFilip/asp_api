@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JRe4f6Dv8DcP6ZdzTPEB8vGO5bOkNrK/JALwil6uwCPwes19PIpU62YOQHP+J4h7C8XFQ+CPnllA7nhwdZjZEg==",
+  "dgSpecHash": "UPk+NYgG1sAA4hVsVMqG6puHTIyXkQvcOW9Md9Hl6gPWAG2Y1EQWaoDlI9jvLKb2jv4jyAviGwz9tH41GQc7HQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Developer\\OneDrive\\Desktop\\final\\asp_projekat\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\project\\asp_api\\Application\\Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

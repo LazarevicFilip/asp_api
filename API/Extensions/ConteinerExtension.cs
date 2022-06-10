@@ -86,6 +86,7 @@ namespace API.Extensions
             collection.AddTransient<RegisterUserValidator>();
             collection.AddTransient<UpdateAuthorValidator>();
             collection.AddTransient<UpdateCategoryValidator>();
+            collection.AddTransient<CreateBookValidator>();
             collection.AddTransient<UpdateUserUseCaseValidator>();
             collection.AddTransient<IGetAuthorsQuery, EFGetAuthorsQuery>();
             collection.AddTransient<IGetCategoriesQuery, EFGetCategoriesQuery>();
@@ -93,7 +94,9 @@ namespace API.Extensions
             collection.AddTransient<IFindBookQuery, EfFindBookQuery>();
             collection.AddTransient<ICreateCategoryCommand, EFCreateCategoryCommand>();
             collection.AddTransient<ICreateAuthorCommand, EFCreateAuthorCommand>();
+            collection.AddTransient<ICreateBookCommand, EFCreateBookCommand>();
             collection.AddTransient<IUpdateAuthorsCommand, EFUpdateAuthorCommand>();
+            collection.AddTransient<IUpdateBookCommand, EFUpdateBookCommand>();
             collection.AddTransient<IUpdateCategoryCommand, EFUpdateCategoryCommand>();
             collection.AddTransient<IRegisterUserCommand, EFRegisteUserCommand>();
             collection.AddTransient<IUpdateUserUseCasesCommand, EFUpdateUserUseCases>();
@@ -116,7 +119,7 @@ namespace API.Extensions
                 var options = optionsBuilder.Options;
                 return new LibaryContext(options);
             });
-           
+
 
         }
     }

@@ -5832,19 +5832,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Developer\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Developer\\OneDrive\\Desktop\\final\\asp_projekat\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\project\\asp_api\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\Developer\\OneDrive\\Desktop\\final\\asp_projekat\\DataAccess\\DataAccess.csproj",
-      "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Developer\\OneDrive\\Desktop\\final\\asp_projekat\\DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\project\\asp_api\\DataAccess\\DataAccess.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\project\\asp_api\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5858,11 +5858,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Developer\\OneDrive\\Desktop\\final\\asp_projekat\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Developer\\OneDrive\\Desktop\\final\\asp_projekat\\Application\\Application.csproj"
+            "C:\\Users\\User\\Desktop\\project\\asp_api\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\project\\asp_api\\Application\\Application.csproj"
             },
-            "C:\\Users\\Developer\\OneDrive\\Desktop\\final\\asp_projekat\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Developer\\OneDrive\\Desktop\\final\\asp_projekat\\Domain\\Domain.csproj"
+            "C:\\Users\\User\\Desktop\\project\\asp_api\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\project\\asp_api\\Domain\\Domain.csproj"
             }
           }
         }
@@ -5907,7 +5907,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

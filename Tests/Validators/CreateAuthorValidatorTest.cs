@@ -23,13 +23,13 @@ namespace Tests.Validators
             //{
             //    Name = "Eduardo Stamm"
             //};v
-            var dto = new CreateAuthorDto();
-            //izvrsavanje testa
-            var result = validator.Validate(dto);
-            //verifikacija testa
-            result.IsValid.Should().BeFalse();
-            result.Errors.Where(x => x.PropertyName == "Name").Should().HaveCount(1);
-            result.Errors.Where(x => x.PropertyName == "Name").First().ErrorMessage.Should().Be("Ime je obavezan podatak.");
+            //var dto = new CreateAuthorDto();
+            ////izvrsavanje testa
+            //var result = validator.Validate(dto);
+            ////verifikacija testa
+            //result.IsValid.Should().BeFalse();
+            //result.Errors.Where(x => x.PropertyName == "Name").Should().HaveCount(1);
+            //result.Errors.Where(x => x.PropertyName == "Name").First().ErrorMessage.Should().Be("Ime je obavezan podatak.");
         }
         private LibaryContext Context
         {

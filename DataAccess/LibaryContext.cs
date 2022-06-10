@@ -27,7 +27,7 @@ namespace DataAccess
         //{
         //    //DESKTOP-44C9J4P\SQLEXPRESS
         //    //FILIP-PC\SQLEXPRESS
-        //    optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-44C9J4P\SQLEXPRESS;Initial Catalog=libary;Integrated Security=True");
+        //    optionsBuilder.UseSqlServer(@"Data Source=FILIP-PC\SQLEXPRESS;Initial Catalog=libary;Integrated Security=True");
         //}
         public override int SaveChanges()
         {
@@ -59,6 +59,7 @@ namespace DataAccess
         public DbSet<BookPublishers> BookPublishers { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<UserUseCase> UserUseCases { get; set; }
+        public DbSet<BookImage> BookImages { get; set; }
 
 
     }
