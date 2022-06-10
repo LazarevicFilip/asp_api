@@ -85,16 +85,20 @@ namespace API.Extensions
             collection.AddTransient<CreateCategoryValidator>();
             collection.AddTransient<RegisterUserValidator>();
             collection.AddTransient<UpdateAuthorValidator>();
+            collection.AddTransient<UpdateCategoryValidator>();
             collection.AddTransient<UpdateUserUseCaseValidator>();
             collection.AddTransient<IGetAuthorsQuery, EFGetAuthorsQuery>();
             collection.AddTransient<IGetCategoriesQuery, EFGetCategoriesQuery>();
             collection.AddTransient<ICreateCategoryCommand, EFCreateCategoryCommand>();
             collection.AddTransient<ICreateAuthorCommand, EFCreateAuthorCommand>();
             collection.AddTransient<IUpdateAuthorsCommand, EFUpdateAuthorCommand>();
+            collection.AddTransient<IUpdateCategoryCommand, EFUpdateCategoryCommand>();
             collection.AddTransient<IRegisterUserCommand, EFRegisteUserCommand>();
             collection.AddTransient<IUpdateUserUseCasesCommand, EFUpdateUserUseCases>();
             collection.AddTransient<IDeleteAuthorCommand, EFDeleteAuthorCommand>();
+            collection.AddTransient<IDeleteCategoryCommand, EFDeleteCategoryCommand>();
             collection.AddTransient<IFindAuthorQuery, EfFindAuthorQuery>();
+            collection.AddTransient<IFindCategoryQuery, EfFindCategoryQuery>();
 
         }
         public static void AddLibaryContext(this IServiceCollection collection)

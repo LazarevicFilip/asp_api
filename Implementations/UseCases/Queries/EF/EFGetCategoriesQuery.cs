@@ -44,6 +44,7 @@ namespace Implementations.UseCases.Queries.EF
             response.CurrentPage = request.Page.Value;
             response.Data = query.Skip(toSkip.Value).Take(request.PerPage.Value).Select(x => new CategoryDto
             {
+                Id = x.Id,
                 Name = x.Name,
                 ParentId = x.ParentId
             }).ToList();

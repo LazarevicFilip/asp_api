@@ -34,14 +34,38 @@ namespace API.Controllers
 
         // GET api/<CategoriesController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get([FromServices] IFindCategoryQuery query,int id)
         {
-            return "value";
+            return Ok(_handler.HandleQuery(query,id));
         }
 
         // POST api/<CategoriesController>
         [HttpPost]
         public IActionResult Post([FromServices] ICreateCategoryCommand command ,[FromForm] CreateCategoryApiDto dto)
+        {
+            UploadPhoto(dto);
+            _handler.HandleCommand(command, dto);
+            return StatusCode(StatusCodes.Status201Created);
+        }
+
+        // PUT api/<CategoriesController>/5
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, [FromServices] IUpdateCategoryCommand command, [FromForm] CreateCategoryApiDto dto)
+        {
+            dto.Id = id;
+            UploadPhoto(dto);
+            _handler.HandleCommand(command, dto);
+            return NoContent();
+        }
+
+        // DELETE api/<CategoriesController>/5
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id,[FromServices] IDeleteCategoryCommand command)
+        {
+            _handler.HandleCommand(command, id);
+            return NoContent();
+        }
+        private void UploadPhoto(CreateCategoryApiDto dto)
         {
             if (dto.File != null)
             {
@@ -59,20 +83,6 @@ namespace API.Controllers
                 }
                 dto.PathName = newFileName;
             }
-            _handler.HandleCommand(command, dto);
-            return StatusCode(StatusCodes.Status201Created);
-        }
-
-        // PUT api/<CategoriesController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<CategoriesController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
         }
     }
 }
