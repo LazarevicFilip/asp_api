@@ -19,4 +19,8 @@ namespace Application.DTO.Searches
     {
         public string Keyword { get; set; }
     }
+    public class OrderBasePagedSearch : BasePagedSearch
+    {
+        public int UserId { get; set; }
+    }
 }

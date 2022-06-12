@@ -45,6 +45,7 @@ namespace API
             //var connection = settings
             services.AddHttpContextAccessor();
             services.AddUseCases();
+            services.AddValidators();
             services.AddJwt(settings);
             services.AddLibaryContext();
             services.AddUser();

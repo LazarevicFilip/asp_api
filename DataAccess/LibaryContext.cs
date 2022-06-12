@@ -4,7 +4,7 @@ using System;
 
 namespace DataAccess
 {
-    public class LibaryContext : DbContext 
+    public class LibaryContext : DbContext
     {
         public LibaryContext(DbContextOptions options)
             : base(options)
@@ -60,6 +60,9 @@ namespace DataAccess
         public DbSet<User> Users { get; set; }
         public DbSet<UserUseCase> UserUseCases { get; set; }
         public DbSet<BookImage> BookImages { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderLine> OrderLines { get; set; }
+        public DbSet<Comment> Comments { get; set; }
 
 
     }

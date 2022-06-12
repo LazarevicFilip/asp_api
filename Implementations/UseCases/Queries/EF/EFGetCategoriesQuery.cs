@@ -27,7 +27,7 @@ namespace Implementations.UseCases.Queries.EF
             var query = Context.Categories.Where(x => x.IsActive).AsQueryable();
             if(!string.IsNullOrEmpty(request.Keyword))
             {
-                query.Where(x => x.Name.Contains(request.Keyword));
+                query =  query.Where(x => x.Name.Contains(request.Keyword));
             }
             if (request.PerPage == null || request.PerPage < 10)
             {

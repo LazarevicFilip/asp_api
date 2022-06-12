@@ -19,6 +19,7 @@ namespace Domain.Entities
         public virtual Author Author { get; set; }
         public virtual ICollection<BookCategories> BookCategories { get; set; } = new List<BookCategories>();
         public virtual ICollection<BookPublishers> BookPublishers { get; set; } = new List<BookPublishers>();
+        public virtual ICollection<Comment> Comments { get; set; } = new List<Comment>();
        
     }
 }

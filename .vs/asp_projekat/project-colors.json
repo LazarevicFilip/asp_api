@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "70012ace-c855-4c09-8f3c-35bab63e8338": {
+      "ProjectGuid": "70012ace-c855-4c09-8f3c-35bab63e8338",
+      "DisplayName": "Application",
+      "ColorIndex": 0
+    },
+    "06a36eeb-d736-454d-bd40-39cdbc2d7bdf": {
+      "ProjectGuid": "06a36eeb-d736-454d-bd40-39cdbc2d7bdf",
+      "DisplayName": "Implementations",
+      "ColorIndex": 1
+    },
+    "10cdcb18-85a0-4984-87d1-239d89e0bb4b": {
+      "ProjectGuid": "10cdcb18-85a0-4984-87d1-239d89e0bb4b",
+      "DisplayName": "API",
+      "ColorIndex": 2
+    },
+    "c2101573-6105-469c-8d13-eb8f9615d2c4": {
+      "ProjectGuid": "c2101573-6105-469c-8d13-eb8f9615d2c4",
+      "DisplayName": "Domain",
+      "ColorIndex": 3
+    },
+    "fc231530-0946-41a3-8a65-ef2b59581aff": {
+      "ProjectGuid": "fc231530-0946-41a3-8a65-ef2b59581aff",
+      "DisplayName": "DataAccess",
+      "ColorIndex": 4
+    },
+    "9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7": {
+      "ProjectGuid": "9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7",
+      "DisplayName": "Tests",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

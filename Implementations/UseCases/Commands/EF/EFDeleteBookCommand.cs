@@ -25,13 +25,15 @@ namespace Implementations.UseCases.Commands.EF
 
         public void Execute(int request)
         {
-            var book = Context.Books.Include(x => x.BookCategories).FirstOrDefault(x => x.Id == request && x.IsActive);
+            var book = Context.Books.Include(x => x.BookCategories).Include(x => x.BookPublishers).FirstOrDefault(x => x.Id == request && x.IsActive);
             if (book == null)
             {
                 throw new EntityNotFoundException(nameof(Book), request);
             }
             var bookCategories = Context.BookCategories.Where(x => x.BookId == request);
+            var bookPublishers = Context.BookPublishers.Where(x => x.BookId == request);
             Context.RemoveRange(bookCategories);
+            Context.RemoveRange(bookPublishers);
             book.IsActive = false;
             book.DeletedAt = DateTime.UtcNow;
             Context.SaveChanges();

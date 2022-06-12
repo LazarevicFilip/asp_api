@@ -3,6 +3,7 @@ using Application.DTO.Searches;
 using Application.UseCases.Commands;
 using Application.UseCases.Queries;
 using Implementations.UseCases;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -16,6 +17,7 @@ namespace API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CategoriesController : ControllerBase
     {
         private UseCaseHandler _handler;

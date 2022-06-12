@@ -18,7 +18,7 @@ namespace Tests.Validators
         public void CreateAuthorTest()
         {
             //priprema testa
-            var validator = new CreateAuthorValidator(Context);
+           // var validator = new CreateAuthorValidator(Context);
             //var dto = new AuthorDto
             //{
             //    Name = "Eduardo Stamm"
@@ -31,16 +31,16 @@ namespace Tests.Validators
             //result.Errors.Where(x => x.PropertyName == "Name").Should().HaveCount(1);
             //result.Errors.Where(x => x.PropertyName == "Name").First().ErrorMessage.Should().Be("Ime je obavezan podatak.");
         }
-        private LibaryContext Context
-        {
-            get
-            {
-                var optionsBuilder = new DbContextOptionsBuilder();
-                var connection = "Data Source=FILIP-PC\\SQLEXPRESS;Initial Catalog=libary;Integrated Security=True";
-                optionsBuilder.UseSqlServer(connection);
-                var options = optionsBuilder.Options;
-                return new LibaryContext(options);
-            }
-        }
+        //private LibaryContext Context
+        //{
+        //    get
+        //    {
+        //        var optionsBuilder = new DbContextOptionsBuilder();
+        //        var connection = "Data Source=FILIP-PC\\SQLEXPRESS;Initial Catalog=libary;Integrated Security=True";
+        //        optionsBuilder.UseSqlServer(connection);
+        //        var options = optionsBuilder.Options;
+        //        return new LibaryContext(options);
+        //    }
+        //}
     }
 }

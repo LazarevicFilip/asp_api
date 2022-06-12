@@ -81,32 +81,53 @@ namespace API.Extensions
         }
         public static void AddUseCases(this IServiceCollection collection)
         {
+            collection.AddTransient<IGetAuthorsQuery, EFGetAuthorsQuery>();
+            collection.AddTransient<IGetCategoriesQuery, EFGetCategoriesQuery>();
+            collection.AddTransient<IGetPublishersQuery, EFGetPublishersQuery>();
+            collection.AddTransient<IGetBooksQuery, EFGetBooksQuery>();
+            collection.AddTransient<IFindBookQuery, EfFindBookQuery>();
+            collection.AddTransient<ICreateCategoryCommand, EFCreateCategoryCommand>();
+            collection.AddTransient<ICreateCommentCommand, EFCreateCommentCommand>();
+            collection.AddTransient<ICreatePublisherCommand, EFCreatePublisherCommand>();
+            collection.AddTransient<ICreateAuthorCommand, EFCreateAuthorCommand>();
+            collection.AddTransient<ICreateBookCommand, EFCreateBookCommand>();
+            collection.AddTransient<ICreateOrderCommand, EFCreateOrderCommand>();
+            collection.AddTransient<IGetUsersOrderQuery, EFGetUserOrdersQuery>();
+            collection.AddTransient<IUpdateAuthorsCommand, EFUpdateAuthorCommand>();
+            collection.AddTransient<IUpdateBookCommand, EFUpdateBookCommand>();
+            collection.AddTransient<IUpdatePublisherCommand, EFUpdatePublisherCommand>();
+            collection.AddTransient<IUpdateCategoryCommand, EFUpdateCategoryCommand>();
+            collection.AddTransient<IRegisterUserCommand, EFRegisteUserCommand>();
+            collection.AddTransient<IUpdateUserUseCasesCommand, EFUpdateUserUseCases>();
+            collection.AddTransient<IDeleteAuthorCommand, EFDeleteAuthorCommand>();
+            collection.AddTransient<IDeletePublisherCommand, EFDeletePublisherCommand>();
+            collection.AddTransient<IDeleteCategoryCommand, EFDeleteCategoryCommand>();
+            collection.AddTransient<IDeleteCommentCommand, EFDeleteCommentCommand>();
+            collection.AddTransient<IDeleteBookCommand, EFDeleteBookCommand>();
+            collection.AddTransient<IFindAuthorQuery, EfFindAuthorQuery>();
+            collection.AddTransient<IFindCategoryQuery, EfFindCategoryQuery>();
+            collection.AddTransient<IFindPublisherQuery, EFFindPublisherQuery>();
+            collection.AddTransient<IFindBookCommentsQuery, EFFindBookCommentsQuery>();
+
+
+        }
+
+        public static void AddValidators(this IServiceCollection collection)
+        {
+            collection.AddTransient<CreateOrderValidator>();
+            collection.AddTransient<CreateCommentValidator>();
+            collection.AddTransient<OrderLineValidator>();
             collection.AddTransient<CreateAuthorValidator>();
+            collection.AddTransient<UpdatePublisherValidator>();
             collection.AddTransient<CreateCategoryValidator>();
             collection.AddTransient<RegisterUserValidator>();
             collection.AddTransient<UpdateAuthorValidator>();
             collection.AddTransient<UpdateCategoryValidator>();
             collection.AddTransient<CreateBookValidator>();
+            collection.AddTransient<CreatePublisherValidator>();
             collection.AddTransient<UpdateUserUseCaseValidator>();
-            collection.AddTransient<IGetAuthorsQuery, EFGetAuthorsQuery>();
-            collection.AddTransient<IGetCategoriesQuery, EFGetCategoriesQuery>();
-            collection.AddTransient<IGetBooksQuery, EFGetBooksQuery>();
-            collection.AddTransient<IFindBookQuery, EfFindBookQuery>();
-            collection.AddTransient<ICreateCategoryCommand, EFCreateCategoryCommand>();
-            collection.AddTransient<ICreateAuthorCommand, EFCreateAuthorCommand>();
-            collection.AddTransient<ICreateBookCommand, EFCreateBookCommand>();
-            collection.AddTransient<IUpdateAuthorsCommand, EFUpdateAuthorCommand>();
-            collection.AddTransient<IUpdateBookCommand, EFUpdateBookCommand>();
-            collection.AddTransient<IUpdateCategoryCommand, EFUpdateCategoryCommand>();
-            collection.AddTransient<IRegisterUserCommand, EFRegisteUserCommand>();
-            collection.AddTransient<IUpdateUserUseCasesCommand, EFUpdateUserUseCases>();
-            collection.AddTransient<IDeleteAuthorCommand, EFDeleteAuthorCommand>();
-            collection.AddTransient<IDeleteCategoryCommand, EFDeleteCategoryCommand>();
-            collection.AddTransient<IDeleteBookCommand, EFDeleteBookCommand>();
-            collection.AddTransient<IFindAuthorQuery, EfFindAuthorQuery>();
-            collection.AddTransient<IFindCategoryQuery, EfFindCategoryQuery>();
-
         }
+
         public static void AddLibaryContext(this IServiceCollection collection)
         {
             collection.AddTransient(x =>

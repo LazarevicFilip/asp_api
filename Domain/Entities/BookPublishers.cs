@@ -10,6 +10,7 @@ namespace Domain.Entities
     {
         public int BookId { get; set; }
         public int PublisherId { get; set; }
+        public DateTime PublishedYear { get; set; }
         public Book Book { get; set; }
         public Publisher Publisher { get; set; }
     }
