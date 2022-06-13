@@ -1,4 +1,5 @@
-﻿using Application.Seeders;
+﻿using Application.Exceptions;
+using Application.Seeders;
 using Bogus;
 using DataAccess;
 using Domain.Entities;
@@ -19,6 +20,10 @@ namespace Implementations.Seeders
 
         public void Seed()
         {
+            if (Context.Books.Any())
+            {
+                throw new UseCaseConflctException("Database is already seeded.");
+            }
             var authorFaker = new Faker<Author>();
             authorFaker.RuleFor(x => x.Name, x => x.Person.FullName);
             var authors = authorFaker.Generate(30);
@@ -42,6 +47,41 @@ namespace Implementations.Seeders
 
             var publishers = publisherFaker.Generate(10);
 
+
+            var arr = new List<int>();
+            for (int i = 1; i <= 30; i++)
+            {
+                arr.Add(i);
+            }
+
+            var user = new User();
+
+            user.Email = "admin@asp.com";
+            user.Password = BCrypt.Net.BCrypt.HashPassword("Admin321!");
+            user.UserName = "admin";
+            user.FirstName = "Admin";
+            user.LastName = "Admin";
+            var usecase = arr.Select(x => new UserUseCase
+            {
+                UseCaseId = x,
+                User = user
+            });
+            //var categoriesFaker = new Faker<Category>();
+            //categoriesFaker.RuleFor(x => x.Name, x => x.Lorem.Word());
+            //var cats = categoriesFaker.Generate(4);
+            //categoriesFaker.RuleFor(x => x.ParentCategory, x => x.PickRandom(cats));
+            //cats = categoriesFaker.Generate(8);
+          
+            //var catBookFaker = new Faker<BookCategories>();
+            //catBookFaker.RuleFor(x => x.Category, x => x.PickRandom(cats));
+            //catBookFaker.RuleFor(x => x.Book, x => x.PickRandom(books));
+            //var catBooks = catBookFaker.Generate(5);
+
+
+            //Context.Categories.AddRange(cats);
+            //Context.BookCategories.AddRange(catBooks);
+            Context.UserUseCases.AddRange(usecase);
+            Context.Users.Add(user);
             Context.Publishers.AddRange(publishers);
             Context.Authors.AddRange(authors);
             Context.Books.AddRange(books);

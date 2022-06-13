@@ -6,15 +6,15 @@ namespace DataAccess
 {
     public class LibaryContext : DbContext
     {
-        public LibaryContext(DbContextOptions options)
-            : base(options)
-        {
-
-        }
-        //public LibaryContext()
+        //public LibaryContext(DbContextOptions options)
+        //    : base(options)
         //{
 
         //}
+        public LibaryContext()
+        {
+
+        }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(this.GetType().Assembly);
@@ -23,12 +23,12 @@ namespace DataAccess
             modelBuilder.Entity<UserUseCase>().HasKey(x => new { x.UserId,x.UseCaseId });
             base.OnModelCreating(modelBuilder);
         }
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    //DESKTOP-44C9J4P\SQLEXPRESS
-        //    //FILIP-PC\SQLEXPRESS
-        //    optionsBuilder.UseSqlServer(@"Data Source=FILIP-PC\SQLEXPRESS;Initial Catalog=libary;Integrated Security=True");
-        //}
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            //DESKTOP-44C9J4P\SQLEXPRESS
+            //FILIP-PC\SQLEXPRESS
+            optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-44C9J4P\SQLEXPRESS;Initial Catalog=lib_asp;Integrated Security=True");
+        }
         public override int SaveChanges()
         {
             foreach(var entry in ChangeTracker.Entries())

@@ -26,19 +26,8 @@ namespace API.Controllers
         [HttpPost]
         public IActionResult Register([FromBody] RegisterUserDto dto, [FromServices] IRegisterUserCommand command)
         {
-            try
-            {
-                _handler.HandleCommand(command,dto);
-                return StatusCode(StatusCodes.Status201Created);
-
-            } catch (ValidationException ex)
-            {
-                return ex.Errors.ToUnprocessableEntity();
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError);
-            }
+            _handler.HandleCommand(command, dto);
+            return StatusCode(StatusCodes.Status201Created);
         }
         [HttpPost("token")]
         public IActionResult Token([FromBody] GenereteTokenDto dto )
@@ -46,7 +35,7 @@ namespace API.Controllers
             try
             {
                 var token = _manager.MakeToken(dto.Email, dto.Password);
-                return Ok(new {Token = token});
+                return Ok(new { Token = token });
             }
             catch (UnauthorizedAccessException)
             {

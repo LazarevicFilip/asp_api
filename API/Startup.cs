@@ -47,7 +47,8 @@ namespace API
             services.AddUseCases();
             services.AddValidators();
             services.AddJwt(settings);
-            services.AddLibaryContext();
+            //services.AddLibaryContext();
+            services.AddTransient<LibaryContext>();
             services.AddUser();
             services.AddControllers();
             services.AddTransient<IFakeDataSeed, BogusFakerSeeder>();

@@ -128,20 +128,18 @@ namespace API.Extensions
             collection.AddTransient<UpdateUserUseCaseValidator>();
         }
 
-        public static void AddLibaryContext(this IServiceCollection collection)
-        {
-            collection.AddTransient(x =>
-            {
-                var optionsBuilder = new DbContextOptionsBuilder();
+        //public static void AddLibaryContext(this IServiceCollection collection)
+        //{
+        //    collection.AddTransient(x =>
+        //    {
+        //        var optionsBuilder = new DbContextOptionsBuilder();
 
-                var connection = x.GetService<AppSettings>().ConString;
+        //        var connection = x.GetService<AppSettings>().ConString;
 
-                optionsBuilder.UseSqlServer(connection);
-                var options = optionsBuilder.Options;
-                return new LibaryContext(options);
-            });
-
-
-        }
+        //        optionsBuilder.UseSqlServer(connection);
+        //        var options = optionsBuilder.Options;
+        //        return new LibaryContext(options);
+        //    });
+        //}
     }
 }

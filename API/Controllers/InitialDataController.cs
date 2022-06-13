@@ -1,4 +1,6 @@
-﻿using Application.Seeders;
+﻿using Application.Exceptions;
+using Application.Seeders;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 
@@ -19,11 +21,17 @@ namespace API.Controllers
                 request.Seed();
                 return Ok();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
+                if (ex is UseCaseConflctException)
+                {
+                    return StatusCode(StatusCodes.Status409Conflict);
+                    var obj = new { Error = ex.Message };
+
+                }
                 var msg = ex.InnerException;
                 return StatusCode(500);
-               
+
             }
            
         }

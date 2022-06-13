@@ -39,17 +39,16 @@ namespace Implementations.UseCases.Commands.EF
                 FirstName = request.FirstName,
                 LastName = request.LastName,
                 Email = request.Email,
-                Password = BCrypt.
-                Net.BCrypt.HashPassword(request.Password),
+                Password = BCrypt.Net.BCrypt.HashPassword(request.Password),
             };
             Context.Users.Add(user);
             Context.SaveChanges();
-            _sender.Send(new Email
-            {
-                To = user.Email,
-                Title = "Verify registration.",
-                Body = ""
-            });
+            //_sender.Send(new Email
+            //{
+            //    To = user.Email,
+            //    Title = "Verify registration.",
+            //    Body = ""
+            //});
 
         }
     }

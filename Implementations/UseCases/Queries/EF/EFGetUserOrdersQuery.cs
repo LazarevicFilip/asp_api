@@ -33,6 +33,7 @@ namespace Implementations.UseCases.Queries.EF
             {
                 throw new ForbbidenUseCaseException(Name,_user.Identity);
             }
+           
             var orders = Context.Orders.Include(x => x.OrderLines).Where(x => x.UserId == request.UserId).AsQueryable();
             if (!string.IsNullOrEmpty(request.Keyword))
             {

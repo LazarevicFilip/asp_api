@@ -27,11 +27,13 @@ namespace API.Controllers
             return Ok(_user);
         }
         [HttpPut]
+        [AllowAnonymous]
         public IActionResult Put([FromBody] UpdateUserUseCaseDto dto,
             [FromServices] IUpdateUserUseCasesCommand command)
         {
             _handler.HandleCommand(command,dto);
             return StatusCode(StatusCodes.Status204NoContent);
         }
+
     }
 }

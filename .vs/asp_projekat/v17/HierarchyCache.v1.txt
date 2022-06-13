@@ -1,0 +1,548 @@
+﻿++Solution 'asp_projekat' ‎(6 of 6 projects)
+i:{00000000-0000-0000-0000-000000000000}:asp_projekat.sln
+++API
+i:{00000000-0000-0000-0000-000000000000}:API
+++Connected Services 
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:>1503
+++Dependencies
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:>1502
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:>1217
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:>988
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:>1221
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:>1336
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:>798
+++Properties
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\properties\
+++wwwroot
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\wwwroot\
+++Auth
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\auth\
+++AnonymousUser.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\auth\anonymoususer.cs
+++JwtManager.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\auth\jwtmanager.cs
+++JwtSettings.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\auth\jwtsettings.cs
+++JwtUser.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\auth\jwtuser.cs
+++Controllers
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\controllers\
+++AuthController.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\controllers\authcontroller.cs
+++AuthorsController.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\controllers\authorscontroller.cs
+++BooksController.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\controllers\bookscontroller.cs
+++CategoriesController.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\controllers\categoriescontroller.cs
+++CommentsController.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\controllers\commentscontroller.cs
+++InitialDataController.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\controllers\initialdatacontroller.cs
+++OrdersController.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\controllers\orderscontroller.cs
+++PublishersController.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\controllers\publisherscontroller.cs
+++UserController.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\controllers\usercontroller.cs
+++DTO
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\dto\
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\dto\
+++Extensions
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\extensions\
+++Middleware
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\middleware\
+++.editorconfig
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\.editorconfig
+++AppSettings.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\appsettings.cs
+++appsettings.json
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\appsettings.json
+++appsettings.Development.json
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\appsettings.development.json
+++Program.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\program.cs
+++Startup.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\startup.cs
+++No service dependencies discovered
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:>1504
+++Analyzers
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:analyzers
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:analyzers
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:analyzers
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:analyzers
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:analyzers
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:analyzers
+++Frameworks
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:frameworks
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:frameworks
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:frameworks
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:frameworks
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:frameworks
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:frameworks
+++Packages
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:packages
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:packages
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:packages
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:packages
+++Projects
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:projects
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:projects
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:projects
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:projects
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:projects
+++launchSettings.json
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\properties\launchsettings.json
+++Images
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\wwwroot\images\
+++CreateCategoryApiDto.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\dto\createcategoryapidto.cs
+++ConteinerExtension.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\extensions\conteinerextension.cs
+++ValidationExtensions.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\extensions\validationextensions.cs
+++GlobalExceptionHandler.cs
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\middleware\globalexceptionhandler.cs
+++Microsoft.AspNetCore.Analyzers
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.17\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.17\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:c:\users\developer\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.17\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.17\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.AspNetCore.App
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\microsoft.netcore.app
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\microsoft.netcore.app
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\microsoft.netcore.app
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:c:\users\developer\onedrive\desktop\new folder (2)\tests\microsoft.netcore.app
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\new folder (2)\domain\microsoft.netcore.app
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\microsoft.netcore.app
+++Microsoft.AspNetCore.Authentication.JwtBearer (5.0.17)
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:>1523
+++Swashbuckle.AspNetCore (5.6.3)
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:>1521
+++Application
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\application\application.csproj
+i:{00000000-0000-0000-0000-000000000000}:Application
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\application\application.csproj
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\application\application.csproj
+++DataAccess
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\dataaccess.csproj
+i:{00000000-0000-0000-0000-000000000000}:DataAccess
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\dataaccess.csproj
+++Domain
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\domain\domain.csproj
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\domain\domain.csproj
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\domain\domain.csproj
+i:{00000000-0000-0000-0000-000000000000}:Domain
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\domain\domain.csproj
+++Implementations
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\implementations.csproj
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\implementations.csproj
+i:{00000000-0000-0000-0000-000000000000}:Implementations
+++0cfbf129-09c2-4fe3-90ae-f9c436e2cb45.png
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\wwwroot\images\0cfbf129-09c2-4fe3-90ae-f9c436e2cb45.png
+++2410a5d6-0e73-4705-96a9-1e733bf68ba2.jpg
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\wwwroot\images\2410a5d6-0e73-4705-96a9-1e733bf68ba2.jpg
+++4cbccb81-6522-494b-a823-547427cd3960.jpg
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\wwwroot\images\4cbccb81-6522-494b-a823-547427cd3960.jpg
+++60f863ec-b134-4282-b5c1-88c94f197dba.png
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\wwwroot\images\60f863ec-b134-4282-b5c1-88c94f197dba.png
+++65c26fda-875e-44cb-b156-9a548bb86b32.jpg
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\wwwroot\images\65c26fda-875e-44cb-b156-9a548bb86b32.jpg
+++a6f2acd3-a2d5-4833-86b3-9390ae8e8097.jpg
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\wwwroot\images\a6f2acd3-a2d5-4833-86b3-9390ae8e8097.jpg
+++b3547912-626c-4b20-8b3e-093535a4c85c.jpg
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\wwwroot\images\b3547912-626c-4b20-8b3e-093535a4c85c.jpg
+++c80e2bb6-29b0-42f0-8654-3b7511ee3903.png
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\wwwroot\images\c80e2bb6-29b0-42f0-8654-3b7511ee3903.png
+++cdfd3de9-ce95-4f93-8928-bb5282429d27.jpg
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\wwwroot\images\cdfd3de9-ce95-4f93-8928-bb5282429d27.jpg
+++dd5dd808-0534-4644-829b-6aaa9e19dad6.jpg
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\wwwroot\images\dd5dd808-0534-4644-829b-6aaa9e19dad6.jpg
+++e9764b08-87d4-4bf3-a445-7a2ae3a217f2.jpg
+i:{10cdcb18-85a0-4984-87d1-239d89e0bb4b}:c:\users\developer\onedrive\desktop\new folder (2)\api\wwwroot\images\e9764b08-87d4-4bf3-a445-7a2ae3a217f2.jpg
+++Emails
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\emails\
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\emails\
+++Email.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\emails\email.cs
+++IEmailSender.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\emails\iemailsender.cs
+++Exceptions
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\exceptions\
+++Logging
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\logging\
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\logging\
+++Seeders
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\seeders\
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\seeders\
+++UseCases
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\
+++IApplicationUser.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\iapplicationuser.cs
+++IUseCase.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\iusecase.cs
+++Searches
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\dto\searches\
+++AuthorDto.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\dto\authordto.cs
+++BaseDto.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\dto\basedto.cs
+++BookDto.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\dto\bookdto.cs
+++CommentDto.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\dto\commentdto.cs
+++CreateCategoryDto.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\dto\createcategorydto.cs
+++MakeOrderDto.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\dto\makeorderdto.cs
+++PublisherDto.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\dto\publisherdto.cs
+++RegisterUserDto.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\dto\registeruserdto.cs
+++UpdateUserUseCaseDto.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\dto\updateuserusecasedto.cs
+++EntityNotFoundException.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\exceptions\entitynotfoundexception.cs
+++ForbbidenUseCaseException.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\exceptions\forbbidenusecaseexception.cs
+++UseCaseConflctException.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\exceptions\usecaseconflctexception.cs
+++IExceptionLogger.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\logging\iexceptionlogger.cs
+++IUseCaseLogger.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\logging\iusecaselogger.cs
+++IFakeDataSeed.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\seeders\ifakedataseed.cs
+++Commands
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\commands\
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\commands\
+++Queries
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\queries\
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\queries\
+++BaseSearch.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\dto\searches\basesearch.cs
+++ICommand.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\commands\icommand.cs
+++ICreateAuthorCommand.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\commands\icreateauthorcommand.cs
+++ICreateBookCommand.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\commands\icreatebookcommand.cs
+++ICreateCategoryCommand.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\commands\icreatecategorycommand.cs
+++ICreateCommentCommand.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\commands\icreatecommentcommand.cs
+++ICreateOrderCommand.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\commands\icreateordercommand.cs
+++ICreatePublisherCommand.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\commands\icreatepublishercommand.cs
+++IDeleteAuthorCommand.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\commands\ideleteauthorcommand.cs
+++IDeleteBookCommand.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\commands\ideletebookcommand.cs
+++IDeleteCategoryCommand.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\commands\ideletecategorycommand.cs
+++IDeleteCommentCommand.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\commands\ideletecommentcommand.cs
+++IDeletePublisherCommand.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\commands\ideletepublishercommand.cs
+++IRegisterUserCommand.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\commands\iregisterusercommand.cs
+++IUpdateAuthorsCommand.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\commands\iupdateauthorscommand.cs
+++IUpdateBookCommand.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\commands\iupdatebookcommand.cs
+++IUpdateCategoryCommand.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\commands\iupdatecategorycommand.cs
+++IUpdatePublisherCommand.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\commands\iupdatepublishercommand.cs
+++IUpdateUserUseCasesCommand.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\commands\iupdateuserusecasescommand.cs
+++IFindAuthorQuery.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\queries\ifindauthorquery.cs
+++IFindBookCommentsQuery.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\queries\ifindbookcommentsquery.cs
+++IFindBookQuery.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\queries\ifindbookquery.cs
+++IFindCategoryQuery.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\queries\ifindcategoryquery.cs
+++IFindPublisherQuery.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\queries\ifindpublisherquery.cs
+++IGetAuthorsQuery.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\queries\igetauthorsquery.cs
+++IGetBooksQuery.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\queries\igetbooksquery.cs
+++IGetCategoriesQuery.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\queries\igetcategoriesquery.cs
+++IGetPublishersQuery.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\queries\igetpublishersquery.cs
+++IGetUsersOrderQuery.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\queries\igetusersorderquery.cs
+++IQuery.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\queries\iquery.cs
+++PagedResponse.cs
+i:{70012ace-c855-4c09-8f3c-35bab63e8338}:c:\users\developer\onedrive\desktop\new folder (2)\application\usecases\queries\pagedresponse.cs
+++Configurations
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\configurations\
+++Migrations
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\
+++LibaryContext.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\libarycontext.cs
+++AuthorConfiguration.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\configurations\authorconfiguration.cs
+++BookConfiguration.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\configurations\bookconfiguration.cs
+++BookImageConfiguration.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\configurations\bookimageconfiguration.cs
+++CategoryConfiguration.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\configurations\categoryconfiguration.cs
+++CommentConfiguration.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\configurations\commentconfiguration.cs
+++EntityConfiguration.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\configurations\entityconfiguration.cs
+++ImageConfiguration.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\configurations\imageconfiguration.cs
+++OrderConnfiguration.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\configurations\orderconnfiguration.cs
+++OrderLineConfiguration.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\configurations\orderlineconfiguration.cs
+++PublisherConfiguration.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\configurations\publisherconfiguration.cs
+++UserCinfiguration.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\configurations\usercinfiguration.cs
+++20220524120554_initial setup.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220524120554_initial setup.cs
+++20220530190920_fixed columns that should be fefault null.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220530190920_fixed columns that should be fefault null.cs
+++20220531134839_added unique name columns.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220531134839_added unique name columns.cs
+++20220601104000_added users table.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220601104000_added users table.cs
+++20220602081804_fixed password length column.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220602081804_fixed password length column.cs
+++20220606100807_added table for user use cases.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220606100807_added table for user use cases.cs
+++20220606102106_added dbset for userusecases.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220606102106_added dbset for userusecases.cs
+++20220610180739_added Images table for book entity.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220610180739_added images table for book entity.cs
+++20220611130939_added publishedYear columnn to BookPublisher table.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220611130939_added publishedyear columnn to bookpublisher table.cs
+++20220612123354_added order,orderline & comment table.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220612123354_added order,orderline & comment table.cs
+++20220612140400_added quantity column.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220612140400_added quantity column.cs
+++LibaryContextModelSnapshot.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\libarycontextmodelsnapshot.cs
+++Microsoft.EntityFrameworkCore (5.0.17)
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:>1522
+++Microsoft.EntityFrameworkCore.SqlServer (5.0.17)
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:>1524
+++Microsoft.EntityFrameworkCore.Tools (5.0.17)
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:>1525
+++20220524120554_initial setup.Designer.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220524120554_initial setup.designer.cs
+++20220530190920_fixed columns that should be fefault null.Designer.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220530190920_fixed columns that should be fefault null.designer.cs
+++20220531134839_added unique name columns.Designer.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220531134839_added unique name columns.designer.cs
+++20220601104000_added users table.Designer.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220601104000_added users table.designer.cs
+++20220602081804_fixed password length column.Designer.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220602081804_fixed password length column.designer.cs
+++20220606100807_added table for user use cases.Designer.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220606100807_added table for user use cases.designer.cs
+++20220606102106_added dbset for userusecases.Designer.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220606102106_added dbset for userusecases.designer.cs
+++20220610180739_added Images table for book entity.Designer.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220610180739_added images table for book entity.designer.cs
+++20220611130939_added publishedYear columnn to BookPublisher table.Designer.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220611130939_added publishedyear columnn to bookpublisher table.designer.cs
+++20220612123354_added order,orderline & comment table.Designer.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220612123354_added order,orderline & comment table.designer.cs
+++20220612140400_added quantity column.Designer.cs
+i:{fc231530-0946-41a3-8a65-ef2b59581aff}:c:\users\developer\onedrive\desktop\new folder (2)\dataaccess\migrations\20220612140400_added quantity column.designer.cs
+++Tests
+i:{00000000-0000-0000-0000-000000000000}:Tests
+++Validators
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:c:\users\developer\onedrive\desktop\new folder (2)\tests\validators\
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\validators\
+++UnitTest1.cs
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:c:\users\developer\onedrive\desktop\new folder (2)\tests\unittest1.cs
+++CreateAuthorValidatorTest.cs
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:c:\users\developer\onedrive\desktop\new folder (2)\tests\validators\createauthorvalidatortest.cs
+++xunit.analyzers
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:c:\users\developer\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+++coverlet.collector (3.1.0)
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:>1544
+++FluentAssertions (6.7.0)
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:>1541
+++Microsoft.NET.Test.Sdk (16.11.0)
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:>1540
+++xunit (2.4.1)
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:>1542
+++xunit.runner.visualstudio (2.4.3)
+i:{9c5a4b1c-7ca3-4593-8d55-e60069a1e7f7}:>1543
+++Entities
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\new folder (2)\domain\entities\
+++Author.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\new folder (2)\domain\entities\author.cs
+++Book.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\new folder (2)\domain\entities\book.cs
+++BookCategories.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\new folder (2)\domain\entities\bookcategories.cs
+++BookImage.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\new folder (2)\domain\entities\bookimage.cs
+++BookPublishers.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\new folder (2)\domain\entities\bookpublishers.cs
+++Category.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\new folder (2)\domain\entities\category.cs
+++Comment.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\new folder (2)\domain\entities\comment.cs
+++Entity.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\new folder (2)\domain\entities\entity.cs
+++Image.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\new folder (2)\domain\entities\image.cs
+++Order.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\new folder (2)\domain\entities\order.cs
+++OrderLine.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\new folder (2)\domain\entities\orderline.cs
+++Publisher.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\new folder (2)\domain\entities\publisher.cs
+++User.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\new folder (2)\domain\entities\user.cs
+++UserUseCase.cs
+i:{c2101573-6105-469c-8d13-eb8f9615d2c4}:c:\users\developer\onedrive\desktop\new folder (2)\domain\entities\userusecase.cs
+++FakeEmailSender.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\emails\fakeemailsender.cs
+++SMTPEmailSender.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\emails\smtpemailsender.cs
+++ConsoleExceptionLogger.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\logging\consoleexceptionlogger.cs
+++ConsoleUseCaseLogger.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\logging\consoleusecaselogger.cs
+++BogusFakerSeeder.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\seeders\bogusfakerseeder.cs
+++EFUseCaseConnection.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\efusecaseconnection.cs
+++UseCaseHandler.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\usecasehandler.cs
+++CreateAuthorValidator.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\validators\createauthorvalidator.cs
+++CreateBookValidator.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\validators\createbookvalidator.cs
+++CreateCategoryValidator.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\validators\createcategoryvalidator.cs
+++CreateCommentValidator.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\validators\createcommentvalidator.cs
+++CreateOrderValidator.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\validators\createordervalidator.cs
+++CreatePublisherValidator.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\validators\createpublishervalidator.cs
+++OrderLineValidator.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\validators\orderlinevalidator.cs
+++RegisterUserValidator.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\validators\registeruservalidator.cs
+++UpdateAuthorValidator.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\validators\updateauthorvalidator.cs
+++UpdateBookValidator.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\validators\updatebookvalidator.cs
+++UpdateCategoryValidator.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\validators\updatecategoryvalidator.cs
+++UpdatePublisherValidator.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\validators\updatepublishervalidator.cs
+++UpdateUserUseCaseValidator.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\validators\updateuserusecasevalidator.cs
+++BCrypt.Net-Next (4.0.3)
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:>1561
+++Bogus (34.0.2)
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:>1562
+++Dapper (2.0.123)
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:>1559
+++FluentValidation (11.0.2)
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:>1560
+++Newtonsoft.Json (13.0.1)
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:>1558
+++EF
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\commands\ef\
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\queries\ef\
+++SP
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\queries\sp\
+++EFCreateAuthorCommand.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\commands\ef\efcreateauthorcommand.cs
+++EFCreateBookCommand.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\commands\ef\efcreatebookcommand.cs
+++EFCreateCategoryCommand.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\commands\ef\efcreatecategorycommand.cs
+++EFCreateCommentCommand.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\commands\ef\efcreatecommentcommand.cs
+++EFCreateOrderCommand.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\commands\ef\efcreateordercommand.cs
+++EFCreatePublisherCommand.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\commands\ef\efcreatepublishercommand.cs
+++EFDeleteAuthorCommand.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\commands\ef\efdeleteauthorcommand.cs
+++EFDeleteBookCommand.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\commands\ef\efdeletebookcommand.cs
+++EFDeleteCategoryCommand.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\commands\ef\efdeletecategorycommand.cs
+++EFDeleteCommentCommand.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\commands\ef\efdeletecommentcommand.cs
+++EFDeletePublisherCommand.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\commands\ef\efdeletepublishercommand.cs
+++EFRegisteUserCommand.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\commands\ef\efregisteusercommand.cs
+++EFUpdateAuthorCommand.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\commands\ef\efupdateauthorcommand.cs
+++EFUpdateBookCommand.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\commands\ef\efupdatebookcommand.cs
+++EFUpdateCategoryCommand.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\commands\ef\efupdatecategorycommand.cs
+++EFUpdatePublisherCommand.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\commands\ef\efupdatepublishercommand.cs
+++EFUpdateUserUseCases.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\commands\ef\efupdateuserusecases.cs
+++EfFindAuthorQuery.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\queries\ef\effindauthorquery.cs
+++EFFindBookCommentsQuery.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\queries\ef\effindbookcommentsquery.cs
+++EfFindBookQuery.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\queries\ef\effindbookquery.cs
+++EfFindCategoryQuery.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\queries\ef\effindcategoryquery.cs
+++EFFindPublisherQuery.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\queries\ef\effindpublisherquery.cs
+++EFGetAuthorsQuery.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\queries\ef\efgetauthorsquery.cs
+++EFGetBooksQuery.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\queries\ef\efgetbooksquery.cs
+++EFGetCategoriesQuery.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\queries\ef\efgetcategoriesquery.cs
+++EFGetPublishersQuery.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\queries\ef\efgetpublishersquery.cs
+++EFGetUserOrdersQuery.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\queries\ef\efgetuserordersquery.cs
+++SPGetAuthorsQuery.cs
+i:{06a36eeb-d736-454d-bd40-39cdbc2d7bdf}:c:\users\developer\onedrive\desktop\new folder (2)\implementations\usecases\queries\sp\spgetauthorsquery.cs

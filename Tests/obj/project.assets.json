@@ -8504,19 +8504,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Developer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\project\\asp_api\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Developer\\OneDrive\\Desktop\\New folder (2)\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Users\\User\\Desktop\\project\\asp_api\\Tests\\Tests.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\project\\asp_api\\Tests\\obj\\",
+      "projectPath": "C:\\Users\\Developer\\OneDrive\\Desktop\\New folder (2)\\Tests\\Tests.csproj",
+      "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Developer\\OneDrive\\Desktop\\New folder (2)\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8530,8 +8530,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\project\\asp_api\\Implementations\\Implementations.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\project\\asp_api\\Implementations\\Implementations.csproj"
+            "C:\\Users\\Developer\\OneDrive\\Desktop\\New folder (2)\\Implementations\\Implementations.csproj": {
+              "projectPath": "C:\\Users\\Developer\\OneDrive\\Desktop\\New folder (2)\\Implementations\\Implementations.csproj"
             }
           }
         }
@@ -8586,7 +8586,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
