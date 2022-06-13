@@ -34,6 +34,7 @@ namespace Implementations.UseCases.Commands.EF
             }
             return new ExtendendBookDto
             {
+                Id = book.Id,
                 Title = book.Title,
                 Isbn = book.Isbn,
                 Description = book.Description,

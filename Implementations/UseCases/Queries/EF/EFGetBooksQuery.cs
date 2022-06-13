@@ -45,6 +45,7 @@ namespace Implementations.UseCases.Queries.EF
                 ItemsPerPage = request.PerPage.Value,
                 Data = query.Skip(toSkip.Value).Take(request.PerPage.Value).Select(x => new ExtendendBookDto
                 {
+                    Id = x.Id,
                     Title = x.Title,
                     Author = x.Author.Name,
                     Isbn = x.Isbn,
