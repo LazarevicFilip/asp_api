@@ -15,6 +15,7 @@ namespace Application.DTO
     }
     public class ExtendendBookDto : BookDto
     {
+        public int Id { get; set; }
         public string Description { get; set; }
 
         public int PagesCount { get; set; }

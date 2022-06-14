@@ -15,8 +15,8 @@ namespace DataAccess.Configurations
         {
             builder.Property(x => x.Title).IsRequired().HasMaxLength(70);
             builder.Property(x => x.Format).IsRequired().HasMaxLength(70);
-            builder.Property(x => x.Isbn).IsRequired().IsFixedLength(true);
-            builder.HasAlternateKey(x => x.Isbn);
+            builder.Property(x => x.Isbn).IsRequired().IsFixedLength(true).HasMaxLength(100);
+            //builder.HasAlternateKey(x => x.Isbn);
 
             builder.HasMany(x => x.BookCategories)
                 .WithOne(x => x.Book)

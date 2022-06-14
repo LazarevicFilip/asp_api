@@ -53,7 +53,7 @@ namespace API
             services.AddControllers();
             services.AddTransient<IFakeDataSeed, BogusFakerSeeder>();
             services.AddTransient<IExceptionLogger, ConsoleExceptionLogger>();
-            services.AddTransient<IUseCaseLogger, ConsoleUseCaseLogger>();
+            services.AddTransient<IUseCaseLogger, EFUseCaseLogger>();
             services.AddTransient<IEmailSender>(x => new SMTPEmailSender(settings.EmailFrom,settings.EmailPassword));
             services.AddTransient<UseCaseHandler>();
 

@@ -15,8 +15,8 @@ namespace Implementations.UseCases.Commands.EF
 {
     public class EFUpdateBookCommand : EFUseCaseConnection, IUpdateBookCommand
     {
-        private readonly CreateBookValidator _validator;
-        public EFUpdateBookCommand(LibaryContext context, CreateBookValidator validator) : base(context)
+        private readonly UpdateBookValidator _validator;
+        public EFUpdateBookCommand(LibaryContext context, UpdateBookValidator validator) : base(context)
         {
             _validator = validator;
         }
@@ -50,6 +50,9 @@ namespace Implementations.UseCases.Commands.EF
             book.PagesCount = request.PagesCount;
             book.Isbn = request.Isbn;
             book.AuthorId = request.AuthorId;
+
+            var bookCategory = Context.BookCategories.Where(x => x.BookId == book.Id);
+            Context.BookCategories.RemoveRange(bookCategory);
             book.BookCategories = request.BookCategoryIds.Select(x => new BookCategories
             {
                 BookId = request.Id,

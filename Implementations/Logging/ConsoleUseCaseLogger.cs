@@ -9,6 +9,11 @@ namespace Implementations.Logging
 {
     public class ConsoleUseCaseLogger : IUseCaseLogger
     {
+        public IEnumerable<UseCaseLog> GetLogs(UseCaseLogSearch log)
+        {
+            throw new NotImplementedException();
+        }
+
         public void Log(UseCaseLog log)
         {
             Console.WriteLine($"UseCase: {log.UseCaseName}, User: {log.User}, {log.ExecutionDateTime}, Authorized: {log.IsAuthorized}");

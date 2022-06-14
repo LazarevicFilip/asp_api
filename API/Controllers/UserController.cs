@@ -1,6 +1,8 @@
 ﻿using Application;
 using Application.DTO;
+using Application.Logging;
 using Application.UseCases.Commands;
+using Application.UseCases.Queries;
 using Implementations.UseCases;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -33,6 +35,11 @@ namespace API.Controllers
         {
             _handler.HandleCommand(command,dto);
             return StatusCode(StatusCodes.Status204NoContent);
+        }
+        [HttpGet("logs")]
+        public IActionResult GetLogs([FromQuery] UseCaseLogSearch dto,[FromServices] IGetUseCaseLogsQuery query)
+        {
+            return Ok(_handler.HandleQuery(query, dto));
         }
 
     }

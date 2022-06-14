@@ -63,6 +63,7 @@ namespace DataAccess
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderLine> OrderLines { get; set; }
         public DbSet<Comment> Comments { get; set; }
+        public DbSet<UseCaseLogger> UseCaseLogs { get; set; }
 
 
     }

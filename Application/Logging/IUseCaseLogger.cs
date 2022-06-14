@@ -8,7 +8,16 @@ namespace Application.Logging
 {
     public interface IUseCaseLogger
     {
-        void Log(UseCaseLog log);
+        public void Log(UseCaseLog log);
+        public IEnumerable<UseCaseLog> GetLogs(UseCaseLogSearch log);
+    }
+    public class UseCaseLogSearch
+    {
+        public DateTime DateFrom { get; set; }
+        public DateTime DateTo { get; set; }
+        public string UserName { get; set; }
+        public int? UserId { get; set; }
+        public string UseCaseName { get; set; }
     }
     public class UseCaseLog
     {

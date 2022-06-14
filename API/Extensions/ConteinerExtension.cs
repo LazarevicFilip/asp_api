@@ -82,6 +82,7 @@ namespace API.Extensions
         public static void AddUseCases(this IServiceCollection collection)
         {
             collection.AddTransient<IGetAuthorsQuery, EFGetAuthorsQuery>();
+            collection.AddTransient<IGetUseCaseLogsQuery, EFGetUseCaseLogsQuery>();
             collection.AddTransient<IGetCategoriesQuery, EFGetCategoriesQuery>();
             collection.AddTransient<IGetPublishersQuery, EFGetPublishersQuery>();
             collection.AddTransient<IGetBooksQuery, EFGetBooksQuery>();
@@ -115,6 +116,8 @@ namespace API.Extensions
         public static void AddValidators(this IServiceCollection collection)
         {
             collection.AddTransient<CreateOrderValidator>();
+            collection.AddTransient<UpdateBookValidator>();
+            collection.AddTransient<CreateUseCaseLogSearchValidator>();
             collection.AddTransient<CreateCommentValidator>();
             collection.AddTransient<OrderLineValidator>();
             collection.AddTransient<CreateAuthorValidator>();

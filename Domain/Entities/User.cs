@@ -17,5 +17,6 @@ namespace Domain.Entities
         public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
         public virtual ICollection<UserUseCase> UseCases { get; set; } = new List<UserUseCase>();
         public virtual ICollection<Comment> Comments { get; set; } = new List<Comment>();
+        public virtual ICollection<UseCaseLogger> UseCaseLoggs { get; set; } = new List<UseCaseLogger>();
     }
 }
