@@ -133,6 +133,8 @@ namespace API.Extensions
 
         //public static void AddLibaryContext(this IServiceCollection collection)
         //{
+        //    alternativa
+        //    collection.AddDbContext<LibaryContext>(ottions => options.useSqlServer(Builder.Configuration.GetConnectionString("")));
         //    collection.AddTransient(x =>
         //    {
         //        var optionsBuilder = new DbContextOptionsBuilder();
